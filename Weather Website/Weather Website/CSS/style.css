@@ -1,0 +1,178 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/sunset.jpg');
+    background-size: cover;
+}
+
+#title{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 25px;
+}
+
+.frm{
+    width: 80%;
+    margin:  auto;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 7px;
+}
+
+
+
+#clear{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top:40px;
+}
+#search{
+    margin-top:40px;
+    /* margin-left: 60px; */
+}
+
+#log{
+    margin-top:40px;
+}
+
+
+.validation{
+    color:red;
+    font-size: 12px;
+}
+
+.require{
+    color: red;
+}
+
+.map { 
+    
+    height: 300px; 
+    width: 50%; 
+    float: right;
+    display: inline-block;
+}
+
+#attractions{
+    display:none;
+    width: 80%;
+    height:auto;
+    margin:  auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 7px;
+}
+/* background: rgba(76, 175, 80, 0.3) */
+
+#tabs{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10%;
+    /* margin-left: 10%; */
+        /* width: 20%;
+        margin-left: 140px;
+        margin-top: 30px; */
+        /* display: inline-block; */
+        /* display:none; */
+}
+
+#rightNowDiv{
+    width: 80%;
+    margin: auto;
+}
+/* .tableDiv{
+    display: inline-block;
+   
+} */
+
+#tableNow{
+    width:50%;
+    /* display: flex; */
+    /* display: inline-block; */
+    text-align: center;
+
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+#icon{
+    margin-top: 0;
+    margin-left: 30px;
+    width: 10%;
+}
+#beforeTable{
+    display: block;
+    margin-bottom: 20px;
+    order: 1;
+    display: flex;
+    flex-direction: row;
+}
+#tableMap{
+    order: 2;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#beforeTablePar{
+    text-align: right;
+    display: inline-block;
+    margin-left: 200px;
+}
+#beforetableText{
+    display: flex;
+    flex-direction: column;
+}
+
+#nextDiv{
+    width: 80%;
+    margin: auto;
+}
+#pModal1{
+    text-align: right;
+    display: inline-block;
+    width:30%;
+}
+#modal2span1{
+    text-align: left;
+}
+#modal2span2{
+    text-align: center;
+}
+#modal2span3{
+    text-align: right;
+}
+
+ @media only screen and (max-width: 768px) {
+    #tableNow{
+        width:100%;
+  }
+  .map{
+    width:100%;
+  }
+
+  /* #tabs {
+    flex-direction: row;
+    align-items: center;
+  } */
+  /* #tabs li {
+    margin-bottom: 0px;
+  } */
+  /* .card-body{
+    display: flex;
+    flex-direction: column;
+  } */
+  #tableMap{
+    flex-direction: column;
+}
+} 
